@@ -13,11 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    class secondViewController: UIViewController {
+    @IBAction func unwindToRed(unwindSegue: UIStoryboardSegue) {
+        
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        _ = segue.destination as! secondViewController
-    }
+//    class secondViewController: UIViewController {}
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        _ = segue.destination as! secondViewController
+//    }
 }
-
